@@ -1,5 +1,5 @@
 def prime?(int)
- if (int % 3) == 0
+ int % 3
  else return false
   end
 end
