@@ -1,7 +1,6 @@
-require 'pry'
-
-def prime?(int)
-return int % 3
-end
-
-binding.pry
+def prime? n
+ for d in 2..(n - 1)
+  if (n % d) == 0
+   return false
+  end
+ end
