@@ -1,6 +1,6 @@
 def prime?(int)
  if (int % 3) == 0
-   return true
- else return false
+   return false
+ else return ture
   end
 end
