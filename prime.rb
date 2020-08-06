@@ -1,8 +1,7 @@
 require 'pry'
 
 def prime?(int)
- divided_number = int % -+2
- if (int > 1 && )
+ if (int > 1 && int % 2 > 0)
    return true
  else return false
   end
