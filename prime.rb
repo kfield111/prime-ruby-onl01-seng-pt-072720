@@ -1,11 +1,8 @@
 require 'pry'
 
-
+vairable = "answer"
 def prime?(int)
- if (int % 3)
-   return true
- else return false
-  end
+ int % 3
 end
 
 binding.pry
