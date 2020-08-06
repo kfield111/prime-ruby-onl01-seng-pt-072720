@@ -1,4 +1,5 @@
 def prime?(int)
-  if int % int
+  check_number = int % int
+  if check_number == 1
   end
 end
