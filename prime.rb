@@ -1,5 +1,5 @@
 def prime?(int)
- if int.odd
+ if int.odd?
    return true
  else return false
   end
