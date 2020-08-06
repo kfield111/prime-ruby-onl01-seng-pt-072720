@@ -1,3 +1,3 @@
 def prime?(int)
-  int.prime?
+  if int % int
 end
