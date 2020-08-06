@@ -4,3 +4,5 @@ def prime? n
    return false
   end
  end
+ true
+ end
