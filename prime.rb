@@ -1,7 +1,7 @@
 require 'pry'
 
 def prime?(int)
-puts "#{int % 3}"
+return "#{int % 3}"
 end
 
 binding.pry
