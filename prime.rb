@@ -1,6 +1,6 @@
 def prime?(int)
-  check_number = int % int
-  if check_number == 1
+  check_number = int % 1
+  if check_number == int
     return true
   else return false
   end
